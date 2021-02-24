@@ -1,42 +1,43 @@
 html {
-  font-size: 10px;
-  font-family: 'Homemade Apple', cursive;
+    font-family: 'Stick', sans-serif;
 }
 
 
 h1 {
-  font-size: 60px;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+p, li, a {
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
-
 
 html {
-  background-color: #00539F;
+    background-color: #FF9500;
 }
 
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #00539f;
+    padding: 0 30px 30px 30px;
+    border: 20px solid white;
 }
 
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+    font-family: 'Stick', sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 3px 3px #FF9500;
 }
 
 img {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
 }

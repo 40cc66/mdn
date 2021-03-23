@@ -4,54 +4,36 @@
     <meta charset="utf-8">
     <meta name="author" content="Stanislav Akimov">
     <meta name="description" content="This page is a starting point of learning web technologies using MDN Web Docs">
-    <title>Hello page</title>
+    <title>Peach says Hello</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
     <script src="scripts/main.js" defer></script>
 </head>
 <body>
 <h1>Hello, world!</h1>
 <img src="images/peach-01.png" alt="A very emotional peach">
+<h2>Author's description</h2>
 <p>
-    <a href="https://www.lipsum.com/" title="Lorem ipsum text generator" target="_blank">Lorem ipsum dolor sit amet</a>,
-    consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed lectus. Aliquam sem
-    fringilla ut morbi tincidunt augue interdum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat.
-    Faucibus turpis in eu mi bibendum neque egestas congue. Nulla facilisi morbi tempus iaculis urna. Odio euismod
-    lacinia at quis risus sed vulputate odio. Id semper risus in hendrerit gravida rutrum quisque. In pellentesque massa
-    placerat duis ultricies lacus sed turpis tincidunt. Aliquam faucibus purus in massa tempor nec feugiat nisl. Aliquet
-    bibendum enim facilisis gravida neque convallis. Sit amet nisl suscipit adipiscing. Facilisis mauris sit amet massa
-    vitae. In massa tempor nec feugiat nisl. Pulvinar sapien et ligula ullamcorper malesuada proin.
+    My name is Stanislav. I learn web development. This is my first page.
 </p>
-<ul>
-    <li>Sagittis purus sit amet volutpat consequat mauris nunc congue nisi.</li>
-    <li>Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat.</li>
-    <li>Quam nulla porttitor massa id neque aliquam vestibulum morbi.</li>
-    <li>Et ultrices neque ornare aenean.</li>
-    <li>Mauris pharetra et ultrices neque ornare aenean euismod.</li>
-    <li>Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et.</li>
-    <li>Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.</li>
-    <li>Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus.</li>
-    <li>Quis varius quam quisque id diam vel quam elementum.</li>
-    <li>Pellentesque pulvinar pellentesque habitant morbi.</li>
-</ul>
 <p>
-    Habitant morbi tristique senectus et netus et malesuada fames. Tellus mauris a diam maecenas sed enim. Aenean
-    pharetra magna ac placerat vestibulum lectus mauris ultrices.
+    When you first visit this page you will be asked to enter your name. Kindly enter your name and it will say "Hello"
+    to you!
+    <br>
+    The page stores the name you entered using
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API" target="_blank">Web Storage API</a>,
+    so if you leave this page and return later you will not be asked about entering your name again.
+    <br>
+    You can change your name using the <a href="#change-button">button</a> below.
 </p>
-<ol>
-    <li>Nam libero justo laoreet sit amet cursus sit.</li>
-    <li>Purus non enim praesent elementum.</li>
-    <li>Metus dictum at tempor commodo ullamcorper a lacus.</li>
-    <li>Tristique senectus et netus et malesuada fames ac turpis egestas.</li>
-    <li>At quis risus sed vulputate.</li>
-</ol>
 <p>
-    Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Sed vulputate mi sit amet mauris commodo quis.
-    Iaculis urna id volutpat lacus laoreet non. Tellus mauris a diam maecenas sed enim ut. Pretium nibh ipsum consequat
-    nisl vel pretium lectus. Netus et malesuada fames ac turpis egestas integer eget aliquet.
+    Try clicking on the image to see some random emotions.
 </p>
-<button>Change user</button>
+<p>
+    I can recommend <a href="https://pixabay.com/" target="_blank">Pixabay</a> for other cool images.
+</p>
+<button id="change-button">Change user</button>
 </body>
 </html> 

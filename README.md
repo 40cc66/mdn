@@ -1,2 +1,2 @@
 # mdn
-Code created while learning on https://developer.mozilla.org/
+Code created while working with https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
